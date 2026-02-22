@@ -1,30 +1,54 @@
 # Customer Avatar — Dubai Launch
 
-## Profile
-- High income / high net worth individual
-- Lives in a Dubai apartment (space constrained)
-- Values time above almost everything else
-- Wellness-conscious, performance-oriented
-- Already familiar with cold therapy concept (Joe Rogan, biohacking culture)
+## The Person
+- **Name (fictional):** Khalid / Priya / Marcus
+- **Age:** 28–42
+- **Location:** Dubai (JBR, Downtown, Business Bay, DIFC, Marina)
+- **Income:** AED 30,000+/month (top 10–15% earners)
+- **Living situation:** Apartment — no outdoor space, no villa, no cold plunge room
+- **Occupation:** Finance, tech, real estate, entrepreneur, senior corporate
 
-## The Problem They Have
-- Tap water in Dubai reaches 35°C+ in summer — impossible to take a cold shower
-- No balcony or bathroom space for a cold plunge
-- Wakes up relying on caffeine — knows it's suboptimal
-- Loses 30+ minutes every morning to grogginess and slow starts
+## Psychographics
+- Optimises everything — diet, sleep, gym, morning routine
+- Already aware of cold exposure benefits (seen Joe Rogan, Andrew Huberman, etc.)
+- Time is their most valued asset — they calculate ROI on decisions
+- Early adopter of premium wellness products (Whoop, Oura ring, Eight Sleep)
+- Status-aware — buys tools that signal seriousness about performance
+- Frustrated by limitations of apartment life for wellness
 
-## What They Want
-- To win back productive time in the morning
-- A high-performance morning routine that fits apartment life
-- Something that works in 30 seconds, not 30 minutes
-- To optimise their morning like they optimise everything else
+## The Core Problem
+Dubai tap water hits 21–35°C year-round. A cold shower is not physiologically possible.
+Cold plunges require outdoor space or large bathrooms they do not have.
+They cannot access the one recovery and alertness tool they know actually works.
 
-## Their ROI Calculation
-If they value their time at $100/hr, 30 min/day = $18,250/yr saved.
-KRYO at $1,000 = 20-day payback. Easy sell to someone who thinks this way.
+## Current Behaviour (Morning)
+- Alarm goes off, snooze or grogginess
+- Espresso or coffee immediately, caffeine dependency
+- Slow start, first 30-60 min of the day wasted
+- Caffeine crash mid-afternoon, second coffee, disrupted sleep
 
-## Objections to Address
-1. 'Is it worth $1,000?' → Frame the time ROI
-2. 'Does it actually work?' → Science + celebrity social proof
-3. 'Will it fit my apartment?' → Compact, wall-mount setup
-4. 'Is 1°C safe?' → Yes — 30 seconds is the protocol
+## Desired Outcome
+- Wake up sharp in under 60 seconds
+- Remove or reduce caffeine dependency
+- Gain back 30+ min of productive morning time
+- A routine that matches their identity as a high-performer
+
+## Why KRYO
+- Only solution that works in an apartment with warm tap water
+- 14L reservoir held at 1C, always ready
+- 30 seconds delivers full CNS activation
+- Compact, fits standard bathroom
+- $1,000+ is trivial if they value their time at AED 150+/hr
+
+## Primary Objections
+1. Does it actually work? Science + Huberman-style proof + testimonials
+2. Is it worth $1,000? ROI framing: 30 min/day x 365 = 182 hours/year
+3. Will it fit my bathroom? Dimensions, installation simplicity
+4. Is it safe? Temperature control, medical-grade components
+
+## Messaging That Resonates
+- Outcome language: Win back your mornings
+- ROI framing: time and money
+- Science-backed: dopamine spike, cortisol regulation, CNS activation
+- Identity: Built for people who take performance seriously
+- Dubai-specific: Dubai does not do cold showers. KRYO does.
