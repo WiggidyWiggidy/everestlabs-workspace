@@ -1,57 +1,67 @@
-# SKILL: KRYO Meta Ad Copy
+# SKILL: kryo-ads
+Write KRYO Meta ad copy (Facebook/Instagram) for the Dubai launch.
 
-## Purpose
-Write high-converting Meta (Instagram/Facebook) ad copy for KRYO by Everest Labs.
-Always reference KRYO.md and docs/brand-voice.md before writing.
+## Before Writing
+1. Read `/home/node/.openclaw/workspace/KRYO.md` — product, avatar, brand voice
+2. Read `data/feedback.json` from GitHub for lessons from past approved/rejected copy
+3. Check which angles are already running (avoid duplicating live experiments)
 
-## Context Files to Load First
-- /home/node/.openclaw/workspace/KRYO.md
-- Pull brand-voice.md from: https://raw.githubusercontent.com/WiggidyWiggidy/everestlabs-workspace/main/docs/brand-voice.md
-- Pull customer-avatar-dubai.md from: https://raw.githubusercontent.com/WiggidyWiggidy/everestlabs-workspace/main/docs/customer-avatar-dubai.md
+## Output Format
+Always produce in this structure:
 
-## The 5 Core Angles to Test
-1. **Productivity** — Win back 30 minutes every morning
-2. **Caffeine replacement** — The cold hit that replaces your first coffee
-3. **Dubai problem** — Tap water is 35°C. Cold showers don't exist here.
-4. **Identity/Status** — For people who take their mornings seriously
-5. **Science** — 250–300% dopamine spike. In 30 seconds.
+```
+ANGLE: [angle name]
+VARIANT: [A/B/C]
 
-## Ad Formats to Produce
+PRIMARY TEXT:
+[2–4 lines max. Hook → proof/insight → CTA]
 
-### Format A — Static Image / Carousel
-- **Primary text** (above image): 1–3 sentences max. Hook + payoff.
-- **Headline** (below image): 5–8 words. Bold claim or question.
-- **Description**: 1 line. Reinforce headline.
-- **CTA button**: Shop Now / Learn More / Get KRYO
+HEADLINE:
+[5–8 words. Punchy. Outcome or curiosity.]
 
-### Format B — Video / Reel (Text Overlay Script)
-- **Line 1** (0–1s): Disruptive hook — pain or bold claim
-- **Line 2** (1–3s): Agitate or intrigue
-- **Line 3** (3–5s): KRYO as solution
-- **Line 4** (5–7s): Proof or ROI
-- **CTA** (final frame): Direct. One line.
+DESCRIPTION:
+[1 line. Optional. Reinforces headline.]
 
-## Output Structure
-For each angle, produce 3 variants:
-- Variant A: Pain-led (start with the problem)
-- Variant B: Outcome-led (start with the result)
-- Variant C: Science/curiosity-led (start with a data point or question)
+CTA BUTTON: [Shop Now / Learn More / Get KRYO]
+```
 
-## Brand Voice Rules (from brand-voice.md)
-- Short sentences. Punchy. Declarative.
-- Outcome before feature
-- Science-backed, never woo
-- Premium confidence — never defensive
-- Dubai-specific where relevant
+Produce 5 angles × 3 variants = 15 pieces minimum per batch.
 
-## Logging
-After producing copy, offer to:
-1. Log the copy set to GitHub at copy/ads/YYYY-MM-DD-[angle].md
-2. Add a corresponding experiment to the ICE matrix in data/experiments.json
+## The 5 Core Angles
+1. **Productivity** — "Win back 30 minutes every morning"
+2. **Caffeine replacement** — "The coffee you don't need"
+3. **Dubai problem** — "Dubai tap water is 35°C. KRYO is 1°C."
+4. **Identity/status** — "Built for people who take mornings seriously"
+5. **Science** — Cold exposure → dopamine spike → CNS activation
 
-## Quality Check Before Submitting
-- [ ] Under 125 characters for primary text on mobile?
-- [ ] No fluff words (amazing, incredible, just, simply)?
-- [ ] Outcome is clear within first 3 words of headline?
-- [ ] Dubai avatar would recognise themselves in this ad?
-- [ ] Passes Eight Sleep brand bar — would this look at home on their feed?
+## Copy Rules (from Brand Voice)
+- Outcome first, feature second
+- Short sentences. Declarative. Punchy.
+- No woo language. Science or ROI only.
+- Never use: relax, pamper, affordable, simply, amazing, incredible
+- Always use: sharp, awake, cold, 1°C, 30 seconds, performance, edge
+
+## Hook Formulas That Work
+- **Problem hook:** "Dubai does not do cold showers." 
+- **Stat hook:** "30 seconds. That is all it takes."
+- **Identity hook:** "Some people optimise their diet, their sleep, their gym. Then ruin it with coffee."
+- **Question hook:** "What if your morning shower actually woke you up?"
+- **Contrast hook:** "Your tap: 35°C. KRYO: 1°C. Your morning: changed."
+
+## Feedback Loop
+After Happy reviews, log feedback immediately:
+```
+python3 /home/node/.openclaw/workspace/github_push.py log_feedback '{
+  "type": "ad_copy",
+  "draft": "<copy variant>",
+  "feedback": "<Happy feedback>",
+  "approved": true/false,
+  "lesson": "<what to do differently next time>"
+}'
+```
+
+## When Assets Arrive (Tomorrow)
+- Incorporate Happy's winning copy patterns
+- Match tone/structure of what has already converted
+- Layer Eight Sleep examples as style reference — adapt, don't copy
+- Update this SKILL.md with new lessons after first review session
