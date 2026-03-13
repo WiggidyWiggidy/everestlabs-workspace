@@ -1,0 +1,154 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Ad Copy Review & Approval",
+      "start": "2026-03-09",
+      "end": "2026-03-16",
+      "description": "Review and approve batch-001 ad copy across 5 angles: productivity, caffeine replacement, Dubai problem, identity, and science. Happy approves final variants before creative production handoff.",
+      "category": "creative",
+      "color": "#3B82F6",
+      "status": "in_progress"
+    },
+    {
+      "id": "2",
+      "title": "Creative Production (Nano Banana)",
+      "start": "2026-03-16",
+      "end": "2026-03-23",
+      "description": "Nano Banana produces animated video clips and static image assets from all approved copy angles. Target output: 5 angles x 3 creative variants = 15 assets minimum. Ready for Meta upload.",
+      "category": "creative",
+      "color": "#3B82F6",
+      "status": "upcoming"
+    },
+    {
+      "id": "3",
+      "title": "Shopify Landing Pages A/B Test Setup",
+      "start": "2026-03-23",
+      "end": "2026-03-30",
+      "description": "Build two Shopify landing page variants. Variant A: productivity angle headline. Variant B: Dubai problem angle headline. Full GA4 instrumentation — scroll depth, add-to-cart, conversion events. UTM tracking for each Meta ad set.",
+      "category": "technical",
+      "color": "#8B5CF6",
+      "status": "upcoming"
+    },
+    {
+      "id": "4",
+      "title": "Meta Ads Go Live — Soft Launch",
+      "start": "2026-03-30",
+      "end": "2026-03-31",
+      "description": "Dubai campaign goes live on Meta (Instagram + Facebook). Initial spend: test budget across 5 ad angles. Campaign structure: 5 ad sets (one per angle), 3 creative variants each. Monitor for 48h before touching anything.",
+      "category": "paid-media",
+      "color": "#F59E0B",
+      "status": "upcoming"
+    },
+    {
+      "id": "5",
+      "title": "Data Collection Period",
+      "start": "2026-04-01",
+      "end": "2026-04-14",
+      "description": "Two-week data collection window. Daily review of: Meta Ads Manager (CTR, CPM, CPA per ad/creative), GA4 (scroll depth, time on page, add-to-cart rate), Shopify (conversion rate, revenue). Hans generates daily insights digest.",
+      "category": "analysis",
+      "color": "#10B981",
+      "status": "upcoming"
+    },
+    {
+      "id": "6",
+      "title": "Week 1 Ads Review",
+      "start": "2026-04-06",
+      "end": "2026-04-07",
+      "description": "First weekly review of Meta campaign performance. Key questions: Which angle has lowest CPA? Which creative has highest CTR? Which landing page variant has better conversion rate? Kill obvious losers, reallocate budget to winners.",
+      "category": "analysis",
+      "color": "#10B981",
+      "status": "upcoming"
+    },
+    {
+      "id": "7",
+      "title": "Week 2 Ads Review",
+      "start": "2026-04-13",
+      "end": "2026-04-14",
+      "description": "Second weekly review. Two weeks of data — enough to identify statistically meaningful trends. Document: winning angle, winning creative format, winning landing page variant, customer profile (who is actually clicking and buying).",
+      "category": "analysis",
+      "color": "#10B981",
+      "status": "upcoming"
+    },
+    {
+      "id": "8",
+      "title": "Optimization Review — Pick Winning Creative",
+      "start": "2026-04-15",
+      "end": "2026-04-16",
+      "description": "Strategic milestone: lock in winning ad angle and creative format. Scale winning ad set. Pause low performers. Commission next creative batch based on learnings. Update KRYO.md with validated avatar insights.",
+      "category": "milestone",
+      "color": "#EF4444",
+      "status": "upcoming"
+    },
+    {
+      "id": "9",
+      "title": "Full Dubai Market Push",
+      "start": "2026-04-20",
+      "end": "2026-04-21",
+      "description": "Scale winning creative to full budget. Expand audience targeting based on buyer profile data. Retargeting campaign goes live for website visitors who didn't convert. Goal: 3x spend from soft launch phase.",
+      "category": "paid-media",
+      "color": "#F59E0B",
+      "status": "upcoming"
+    },
+    {
+      "id": "10",
+      "title": "Month 1 Revenue Milestone Review",
+      "start": "2026-04-27",
+      "end": "2026-04-28",
+      "description": "End-of-month strategic review. Metrics: total revenue, ROAS, CPA, number of units sold, customer LTV signals. Decision point: continue Dubai scale-up, pivot angle, or begin expanding to second market. Document all learnings.",
+      "category": "milestone",
+      "color": "#EF4444",
+      "status": "upcoming"
+    },
+    {
+      "id": "11",
+      "title": "UAE Influencer Campaign Starts",
+      "start": "2026-05-01",
+      "end": "2026-05-02",
+      "description": "Launch influencer activation with Dubai-based high-performers (biohackers, fitness founders, morning routine content creators). Target: 3-5 micro-influencers (50K-200K followers), performance-oriented audience, UAE-based. Provide KRYO units + commission structure.",
+      "category": "paid-media",
+      "color": "#F59E0B",
+      "status": "upcoming"
+    },
+    {
+      "id": "12",
+      "title": "Influencer Campaign Week 1 Review",
+      "start": "2026-05-08",
+      "end": "2026-05-09",
+      "description": "Review first week of influencer content. Metrics: reach, engagement rate, affiliate link clicks, conversions. Identify best-performing influencer content to repurpose as paid ads. Collect UGC assets.",
+      "category": "analysis",
+      "color": "#10B981",
+      "status": "upcoming"
+    },
+    {
+      "id": "13",
+      "title": "6-Week Launch Strategy Review",
+      "start": "2026-05-15",
+      "end": "2026-05-16",
+      "description": "Major strategic review at 6-week mark. Full audit of: paid media performance, landing page conversion rates, influencer ROI, customer feedback, product-market fit signals. Set targets for Month 2. Decide on geographic expansion timeline.",
+      "category": "milestone",
+      "color": "#EF4444",
+      "status": "upcoming"
+    },
+    {
+      "id": "14",
+      "title": "Second Market Decision Point",
+      "start": "2026-05-22",
+      "end": "2026-05-23",
+      "description": "Decision: expand to second city (candidates: Riyadh, Abu Dhabi, Doha) or double down on Dubai. Criteria: Dubai ROAS > 3x, CPA < $200, at least 20 units sold. If criteria met, begin localization research for next market.",
+      "category": "milestone",
+      "color": "#EF4444",
+      "status": "upcoming"
+    },
+    {
+      "id": "15",
+      "title": "Q2 Campaign Planning",
+      "start": "2026-05-30",
+      "end": "2026-05-31",
+      "description": "Plan Q2 (June-August) campaign strategy. Summer in Dubai = peak heat = peak relevance for KRYO. Develop summer campaign angles, refresh creative library, set Q2 revenue targets. Brief Hans on Q2 content generation priorities.",
+      "category": "milestone",
+      "color": "#EF4444",
+      "status": "upcoming"
+    }
+  ]
+}
